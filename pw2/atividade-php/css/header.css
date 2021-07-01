@@ -1,0 +1,26 @@
+.fixed-top {
+	position: absolute;
+}
+
+.bg-dark {
+	background-color:rgba(0,0,0,.5)!important;
+}
+
+.logo {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.exercicios {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+a, .nav-link {
+	color: #fff!important;
+}
+
+	a:hover {
+		opacity: .5;
+		text-decoration: none!important;
+	}

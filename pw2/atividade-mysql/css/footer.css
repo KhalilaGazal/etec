@@ -1,0 +1,16 @@
+footer {
+	background-color: rgba(0,0,0,.9);
+  color: #fff;
+  padding: 1% 10%;
+  text-align: justify;
+}
+
+p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+  p a:hover {
+    color: #f6e200;
+    text-decoration: underline;
+  }

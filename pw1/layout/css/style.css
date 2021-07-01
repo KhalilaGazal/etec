@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.25em;
+	text-align: left;
+	/*display: table;*/
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+	text-align: center;
+	padding: 0;
+	color: #000;
+}
+
+header nav {
+	font-size: .8em;
+	text-align: left;
+	padding: .7% 0 .7% 2%;	
+}
+
+header nav ul {
+	display: -webkit-box;
+}
+
+header nav ul li {
+	list-style-type: none;
+}
+
+header nav ul li a {
+	color: #000;
+	font-weight: 600;
+	margin: 0 8px;
+}
+
+#globo {
+	color:#00f;
+}
+
+#globo:hover {
+	opacity: .5;
+}
+
+#g1 {
+	color: #f00;
+}
+
+#globoesporte {
+	color: #0c6312;
+}
+
+#gshow {
+	color: #db5508;
+}
+
+#videos {
+	color: #0c54d1;
+}
+
+#g1:hover, #globoesporte:hover, #gshow:hover, #videos:hover {
+	text-decoration: overline;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#saopaulo {
+	background: #c4170c;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 1%;
+	top: 0;
+	/*width: 100%
+	/*position: fixed;*/
+}
+
+#eleicoes {
+	background: #b5150b;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	padding: .4%;
+	margin-bottom: 20px;
+}
+
+#saopaulo a:hover, #eleicoes a:hover {
+	opacity: .5;
+}
+
+section {
+	color: #333;
+	margin: 0 auto;
+	display: table;
+	
+}
+
+section h1 {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+	/*padding: 0 25%;*/
+}
+
+	#titulo {
+		color: #282828;
+		font-size: 2.5em;
+		text-align: center;	
+		padding: 0 15%;		
+		/*margin: 0 -50px 10px -50px;*/
+		}
+
+section h2 {
+	color: #666;
+	font-size: 1em;	
+}
+
+	#subtitulo {
+		font-weight: lighter;
+		text-align: justify;
+		/*width: 70%;*/	
+		padding: 0 20%;
+		margin: 0 auto;
+		display: table;
+		/*background-color: #00f;*/
+	}
+
+section h3 {
+	font-size: .6em;
+	text-align: left;
+	padding: 0 25%;
+}
+
+	.autor {
+		color: #999;
+		font-weight: 700;
+	}
+
+	.data {
+		color: #b7b7b7;
+		font-weight: lighter;
+	}
+
+section video {
+	/*padding: 0 25%;
+	width: 40%;
+	margin: 0 auto;
+	display: table;*/
+}
+
+	.legenda-video {
+		font-size: .8em;
+	}
+
+#conteudo {
+	width: 50%;
+	/*padding: 1%;*/
+	margin: 0 auto;
+	/*display: table;*/
+	/*background-color: #ff0;*/
+}
+
+section ul {
+	text-align: left;
+	/*padding: 0 26.5%;*/
+	/*vertical-align: baseline;*/
+	line-height: 2em;
+}
+
+section p {
+	/*padding: 0 25%;*/
+}
+
+section p a {
+	color: #c4170c;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+section p a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	
+}
+
+.referencia {
+
+}

@@ -1,0 +1,38 @@
+/* #f6e200	#0014f6 */
+@font-face {
+  font-family: 'Jura';
+  src: url('../fonts/Jura/Jura-Bold.ttf');
+}
+
+body {
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* max-width: 100%!important; */
+}
+
+.box-index {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+  padding: 2% 5%; 
+  margin-bottom: 2%;
+}
+
+.titulo {
+  color: #fff;
+  /*display: inline-block;*/	
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  margin-bottom: 2%;
+	/* padding: 2% 0; */
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.titulo a {
+  color: #fff;
+}
+
+.titulo a:hover {
+  color: #f6e200;
+  text-decoration: none;
+}

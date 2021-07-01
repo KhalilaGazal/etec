@@ -1,0 +1,9 @@
+1 - Ler 80 números e ao final informar quantos número(s)est(á)ão no intervalo entre 10 (inclusive) e 150(inclusive)
+
+2 - Faça um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando “maior deidade” e “menor de idade” para cada pessoa. Considere a idade a partir de 18 anos como maiorde idade
+
+3 - Multiplicar dois números usando somas repetidas
+
+4 - Solicitar uma quantidade pré-determinada de números e calcular a soma e média entre esses números
+
+5 - Calcular a soma dos números ímpares entre um intervalo informado

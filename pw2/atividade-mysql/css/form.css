@@ -1,0 +1,55 @@
+.container {
+	display: table;	
+	margin: 0 auto;
+	max-width: 500px;
+	padding-top: 5%;
+	width: 100%;
+}
+
+.form {
+	background-color: rgba(0,0,0,.9);
+	border: 2px solid #fff;
+	border-radius: 5px;	
+	color: #fff;
+	padding: 10%;
+}
+
+.form h1 {
+	color: #f6e200;
+	font-family: 'Jura', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.form input {
+	background-color: #fff;
+	color: #000;
+}
+
+	.form input:focus {
+		background-color: #fff;		
+		border-color: #f6e200;
+    box-shadow: 0 0 5px #f6e200;
+    color: #000;
+	}
+
+	.form input::placeholder {
+	   color: #000;
+	}
+
+.form .btn {
+	background-color: #f6e200;
+	border: none;
+	color: #000;
+}
+
+	.form .btn:hover {
+		opacity: .7;
+		border: none;
+	}
+
+.recuperar-senha {
+	float: right;
+}

@@ -1,0 +1,4 @@
+Com base no banco de dados anexo, crie uma aplicação para gerenciamento de usuários.
+
+
+A aplicação deve ter formas de inserir, excluir e editar usuários.

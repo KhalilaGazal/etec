@@ -1,0 +1,61 @@
+/* discografia.php */
+
+.titulo-discografia {
+  font-size: 1.7em;
+}
+
+.slick-album a:hover,
+.slick-album a:hover p {
+  color: #f6e200;
+  text-decoration: none;
+}
+
+.slick-album p {
+  color: #fff;
+}       
+
+.slick-album p:first-of-type {
+  margin-bottom: 0;
+  margin-top: 2%;
+}     
+
+
+
+/* album.php */
+
+.box-album {
+  background-color: rgba(255,255,255,.9);
+	color: #000;
+	/* display: table; */
+	margin: 5% auto;
+	max-width: 500px;
+	padding: 3% 5%;
+}
+
+.table {
+  background-color: rgba(0,0,0,.9);
+  margin: 3% auto;
+  max-width: 500px;
+}
+
+.table td a {
+  color: #f6e200;
+}
+
+
+/* musica.php */
+
+.box-musica {
+  background-color: rgba(255,255,255,.9);
+	color: #000;
+	padding: 2% 5%;
+}
+
+.video {
+	text-align: left;
+}
+
+.video iframe {
+	height: 253.13px;
+	width: 450px;
+}

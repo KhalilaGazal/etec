@@ -1,0 +1,60 @@
+/* noticia.php */
+
+.card {
+	/* margin-bottom: 5%; */
+}
+
+a .card-title {
+	color: #000;
+}
+
+	a:hover .card-title {
+		color: #000;
+		text-decoration: underline #f6e200!important;
+	}
+
+	a:hover .card-subtitle {
+		text-decoration: underline #fff!important;
+	}
+
+
+
+/* modelo-noticia.php */
+
+.noticia-modelo {
+	background-color: rgba(255,255,255,.9);
+	color: #000;
+	display: table;
+	margin: 5% auto;
+	max-width: 800px;
+	padding: 3% 5%;
+}
+
+.data-noticia {
+	color: #333;
+	font-size: 1em;
+	text-align: right;
+}
+
+.titulo-noticia {
+	padding-bottom: 1%;
+	text-align: center;	
+}
+
+.subtitulo-noticia {
+	color: #333;
+	text-align: center;
+}
+
+
+
+/* adicionar-noticia.php */
+
+.adicionar-noticia {
+	background-color: rgba(0,0,0,.9);
+	border-radius: 5px;
+	color: #fff;
+	margin: 1% auto;
+	max-width: 700px;
+	padding: 5%;
+}

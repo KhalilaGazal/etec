@@ -1,0 +1,61 @@
+body#exercicio01 {
+	background-image: url(../img/exercicio01.jpg)!important;
+}
+
+body#exercicio02 {
+	background-image: url(../img/exercicio02.jpg)!important;
+}
+
+body#exercicio03 {
+	background-image: url(../img/exercicio03.jpg)!important;
+}
+
+body#exercicio04 {
+	background-image: url(../img/exercicio04.jpg)!important;
+}
+
+body#exercicio05 {
+	background-image: url(../img/exercicio05.jpg)!important;
+}
+
+body#exercicio06 {
+	background-image: url(../img/exercicio06.jpg)!important;
+}
+
+body#exercicio07 {
+	background-image: url(../img/exercicio07.jpg)!important;
+}
+
+body#exercicio08 {
+	background-image: url(../img/exercicio08.jpg)!important;
+}
+
+body#exercicio09 {
+	background-image: url(../img/exercicio09.jpg)!important;
+}
+
+body {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 10%;
+	padding-top: 8%;
+}
+
+.container {
+	background-color: rgba(0,0,0,.9);
+	border-radius: 15px;
+	color: #fff;
+	padding: 2% 5%!important;
+}
+
+h1 {
+	font-size: 2em!important;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+p {
+	font-size: 1.3em;
+	padding-bottom: 1%;
+}

@@ -1,0 +1,42 @@
+.logo {
+	font-family: 'Jura', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.bg-dark {
+	background-color:rgba(0,0,0,.5)!important;
+}
+
+ul li a {
+	color: #fff!important;
+}
+
+	ul li a:hover {
+		color: #ccc!important;
+		text-decoration: underline!important;
+}
+
+.btn-outline-warning {
+	color: #f6e200;
+	border-color: #f6e200;
+  }
+  
+	  .btn-outline-warning:hover {
+		color: #000;
+		background-color: #f6e200;
+		border-color: #f6e200;
+  }
+  
+  .btn-warning {
+	color: #000;
+	background-color: #f6e200;
+	border-color: #f6e200;
+  }
+  
+  .btn-warning:hover {
+	color: #000;
+	background-color: #f6e200;
+	border-color: #f6e200;
+	opacity: .8;
+  }

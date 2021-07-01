@@ -1,0 +1,1 @@
+Utilizar o phpmyadmim para importar a tabelas do banco de dados. Arquivo: musicacd.sql.

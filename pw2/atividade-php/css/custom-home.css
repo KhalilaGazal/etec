@@ -1,0 +1,32 @@
+.fixed-top {
+	position: absolute;
+}
+
+.carousel-item {
+	height: 100vh;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+   opacity: 1;
+}
+
+	.carousel-control-prev:hover, 
+	.carousel-control-next:hover {
+		opacity: .5;
+	}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,.9);
+	border-radius: 15px;
+	bottom: initial;
+	color: #fff;
+	padding: 3%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-caption p {
+	font-size: 1.3em;
+	padding: 2%;
+}

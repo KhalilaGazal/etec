@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sortear Números  </title>
+</head>
+<body>
+  <div>
+    <label for="numero1">1º Número:</label>
+    <input type="number" name="numero1" id="numero1" min="1" max="10">
+  </div>
+  <div>
+    <label for="numero2">2º Número:</label>
+    <input type="number" name="numero2" id="numero2" min="1" max="10">
+  </div>
+  <div>
+    <label for="numero3">3º Número:</label>
+    <input type="number" name="numero3" id="numero3" min="1" max="10">
+  </div>
+
+  <div>
+    <input type="submit" value="Sortear" onclick="sortear()">
+  </div>
+
+  <div id="result"></div>
+
+  <script>
+    let n1 = document.getElementById('numero1');
+    let n2 = document.getElementById('numero2');
+    let n3 = document.getElementById('numero3');
+    let result = document.getElementById('result');
+
+    function isNumber(n1, n2, n3)
+    {
+      if((n1>0 && n1<=10) && (n2>0 && n2<=10) && (n3>0 && n3<=10))
+      {
+        if(!((n1 === n2) || (n1 === n3) || (n2 === n3)))
+        {
+          return true;
+        }
+      }
+      else
+      {
+        return false;
+      }
+    }
+
+    function sortear()
+    {
+      let numero1 = Number(n1.value);
+      let numero2 = Number(n2.value);
+      let numero3 = Number(n3.value);
+      let c = 0;
+      let s = 0;
+      let sorteio = [];
+      let acertos = 0;
+
+      result.innerHTML = '';
+
+      if(isNumber(numero1, numero2, numero3))
+      {
+        while(c<3)
+        {     
+          s = Math.floor(Math.random() * 10 + 1);           
+          if(!(sorteio.includes(s)))
+          {
+            sorteio.push(s);
+            c++;
+          }               
+        }
+
+        if(sorteio.includes(numero1))
+        {
+            acertos++;
+        } 
+        if(sorteio.includes(numero2))
+        {
+            acertos++;
+        }
+        if(sorteio.includes(numero3))
+        {
+            acertos++;
+        }
+
+        result.innerHTML += '<p>';
+        result.innerHTML += `1º palpite: ${numero1}<br>`;
+        result.innerHTML += `2º palpite: ${numero2}<br>`;
+        result.innerHTML += `3º palpite: ${numero3}<br>`;
+        result.innerHTML += '</p>';
+
+        result.innerHTML += '<p>';
+        result.innerHTML += `1º número sorteado: ${sorteio[0]}<br>`;
+        result.innerHTML += `2º número sorteado: ${sorteio[1]}<br>`;
+        result.innerHTML += `3º número sorteado: ${sorteio[2]}<br>`;
+        result.innerHTML += '</p>';
+
+        result.innerHTML += '<p>';
+        result.innerHTML += `Quantidade de acertos: ${acertos}`;
+        result.innerHTML += '</p>';
+      }
+      else
+      {
+        result.innerHTML = '[ERRO] Valor inválido!';
+      }
+    }
+  </script>
+</body>
+</html>

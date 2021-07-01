@@ -1,0 +1,39 @@
+O código de barras:
+EAN -13 é um padrão de código de barras usado em supermercados e outros estabelecimentos de varejo para identificação de produtos básicos. O número gerado pelas barras é aquele que aparece abaixo das barras. Este código é composto de 13 dígitos sendo que os 12 primeiros identificam o produto e o último é o dígito de verificação. Os três primeiros dígitos indicam o país onde o código foi criado.
+Para verificarmos se um código foi digitado corretamente, tem-se que calcular o dígito de verificação e comparar com o que foi digitado.
+
+O problema:
+Ler um vetor de inteiros com 13 elementos contendo os dígitos do código de barras verificar se foi digitado corretamente .
+
+Para calcular o dígito de verificação:
+Multiplicar por 3 os elementos 1,3,5,7,9,11
+Multiplicar por 1 os elementos 0,2,4,6,8
+Somar os 12 elementos:
+Calcular o resto da divisão da soma, por 10:
+Se o resto for 0 então o digito de verificação é zero, senão subtrair 10 do resto e aí temos o dígito de verificação.
+
+Exemplo:
+Código de barras 7891098000149
+7 x 1 = 07
+8 x 3 = 24
+9 x 1 = 09 
+1 x 3 = 13
+0 x 1 = 00
+9 x 3 = 27
+8 x 1 = 08
+0 x 3 = 00
+0 x 1 = 00
+0 x 3 = 00
+1 x 1 = 01
+4 x 3 = 12
+       ____
+       101
+
+Resto da divisão de 101 por 10 que é igual a 1   
+10 – 1 = 9
+O dígito de verificação é 9
+
+Códigos de barras para testar:
+7891098000149 (Brasil)
+7908012846346(Brasil)
+0667528021117(EUA)
